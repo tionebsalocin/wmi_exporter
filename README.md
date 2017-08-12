@@ -18,7 +18,7 @@ logical_disk | [Win32_PerfRawData_PerfDisk_LogicalDisk](https://msdn.microsoft.c
 net | [Win32_PerfRawData_Tcpip_NetworkInterface](https://technet.microsoft.com/en-us/security/aa394340(v=vs.80)) metrics (network interface I/O) | &#10003;
 os | [Win32_OperatingSystem](https://msdn.microsoft.com/en-us/library/aa394239) metrics (memory, processes, users) | &#10003;
 process | [Win32_PerfRawData_PerfProc_Process](https://msdn.microsoft.com/en-us/library/aa394323(v=vs.85).aspx) metrics (per-process stats) |
-service | [Win32_Service](https://msdn.microsoft.com/en-us/library/aa394418(v=vs.85).aspx) metrics (service states) | &#10003;
+[service](docs/collector.service.md) | Service state metrics | &#10003;
 system | Win32_PerfRawData_PerfOS_System metrics (system calls) | &#10003;
 vmware | Performance counters installed by the Vmware Guest agent |
 
